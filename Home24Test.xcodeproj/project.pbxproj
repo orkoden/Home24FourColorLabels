@@ -68,9 +68,7 @@
 		B3AE434E1A423E2B00ED95E5 = {
 			isa = PBXGroup;
 			children = (
-				B3CDD1621A433D6E00AC835D /* ColorLabelTableViewCell.h */,
-				B3CDD1631A433D6E00AC835D /* ColorLabelTableViewCell.m */,
-				B3CDD1641A433D6E00AC835D /* ColorLabelTableViewCell.xib */,
+				B3CDD1691A4342E200AC835D /* UI */,
 				B3AE43591A423E2B00ED95E5 /* Home24Test */,
 				B3AE43731A423E2B00ED95E5 /* Home24TestTests */,
 				B3AE43581A423E2B00ED95E5 /* Products */,
@@ -125,6 +123,16 @@
 				B3AE43751A423E2B00ED95E5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3CDD1691A4342E200AC835D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B3CDD1621A433D6E00AC835D /* ColorLabelTableViewCell.h */,
+				B3CDD1631A433D6E00AC835D /* ColorLabelTableViewCell.m */,
+				B3CDD1641A433D6E00AC835D /* ColorLabelTableViewCell.xib */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
