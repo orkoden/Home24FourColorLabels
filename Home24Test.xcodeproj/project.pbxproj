@@ -10,10 +10,12 @@
 		B3AE435D1A423E2B00ED95E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AE435C1A423E2B00ED95E5 /* main.m */; };
 		B3AE43601A423E2B00ED95E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AE435F1A423E2B00ED95E5 /* AppDelegate.m */; };
 		B3AE43631A423E2B00ED95E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AE43621A423E2B00ED95E5 /* ViewController.m */; };
-		B3AE43661A423E2B00ED95E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AE43641A423E2B00ED95E5 /* Main.storyboard */; };
 		B3AE43681A423E2B00ED95E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AE43671A423E2B00ED95E5 /* Images.xcassets */; };
 		B3AE436B1A423E2B00ED95E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3AE43691A423E2B00ED95E5 /* LaunchScreen.xib */; };
 		B3AE43771A423E2B00ED95E5 /* Home24TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AE43761A423E2B00ED95E5 /* Home24TestTests.m */; };
+		B3CDD1651A433D6E00AC835D /* ColorLabelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CDD1631A433D6E00AC835D /* ColorLabelTableViewCell.m */; };
+		B3CDD1661A433D6E00AC835D /* ColorLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3CDD1641A433D6E00AC835D /* ColorLabelTableViewCell.xib */; };
+		B3CDD1681A43406E00AC835D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CDD1671A43406E00AC835D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +36,15 @@
 		B3AE435F1A423E2B00ED95E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B3AE43611A423E2B00ED95E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B3AE43621A423E2B00ED95E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B3AE43651A423E2B00ED95E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3AE43671A423E2B00ED95E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B3AE436A1A423E2B00ED95E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B3AE43701A423E2B00ED95E5 /* Home24TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Home24TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AE43751A423E2B00ED95E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3AE43761A423E2B00ED95E5 /* Home24TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home24TestTests.m; sourceTree = "<group>"; };
+		B3CDD1621A433D6E00AC835D /* ColorLabelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorLabelTableViewCell.h; path = Home24Test/ColorLabelTableViewCell.h; sourceTree = "<group>"; };
+		B3CDD1631A433D6E00AC835D /* ColorLabelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorLabelTableViewCell.m; path = Home24Test/ColorLabelTableViewCell.m; sourceTree = "<group>"; };
+		B3CDD1641A433D6E00AC835D /* ColorLabelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ColorLabelTableViewCell.xib; path = Home24Test/ColorLabelTableViewCell.xib; sourceTree = "<group>"; };
+		B3CDD1671A43406E00AC835D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,9 @@
 		B3AE434E1A423E2B00ED95E5 = {
 			isa = PBXGroup;
 			children = (
+				B3CDD1621A433D6E00AC835D /* ColorLabelTableViewCell.h */,
+				B3CDD1631A433D6E00AC835D /* ColorLabelTableViewCell.m */,
+				B3CDD1641A433D6E00AC835D /* ColorLabelTableViewCell.xib */,
 				B3AE43591A423E2B00ED95E5 /* Home24Test */,
 				B3AE43731A423E2B00ED95E5 /* Home24TestTests */,
 				B3AE43581A423E2B00ED95E5 /* Products */,
@@ -85,10 +93,10 @@
 				B3AE435F1A423E2B00ED95E5 /* AppDelegate.m */,
 				B3AE43611A423E2B00ED95E5 /* ViewController.h */,
 				B3AE43621A423E2B00ED95E5 /* ViewController.m */,
-				B3AE43641A423E2B00ED95E5 /* Main.storyboard */,
 				B3AE43671A423E2B00ED95E5 /* Images.xcassets */,
 				B3AE43691A423E2B00ED95E5 /* LaunchScreen.xib */,
 				B3AE435A1A423E2B00ED95E5 /* Supporting Files */,
+				B3CDD1671A43406E00AC835D /* Main.storyboard */,
 			);
 			path = Home24Test;
 			sourceTree = "<group>";
@@ -199,9 +207,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3AE43661A423E2B00ED95E5 /* Main.storyboard in Resources */,
 				B3AE436B1A423E2B00ED95E5 /* LaunchScreen.xib in Resources */,
+				B3CDD1661A433D6E00AC835D /* ColorLabelTableViewCell.xib in Resources */,
 				B3AE43681A423E2B00ED95E5 /* Images.xcassets in Resources */,
+				B3CDD1681A43406E00AC835D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +230,7 @@
 			files = (
 				B3AE43631A423E2B00ED95E5 /* ViewController.m in Sources */,
 				B3AE43601A423E2B00ED95E5 /* AppDelegate.m in Sources */,
+				B3CDD1651A433D6E00AC835D /* ColorLabelTableViewCell.m in Sources */,
 				B3AE435D1A423E2B00ED95E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +254,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B3AE43641A423E2B00ED95E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3AE43651A423E2B00ED95E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B3AE43691A423E2B00ED95E5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -344,6 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Home24Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Home24Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +416,7 @@
 				B3AE437C1A423E2B00ED95E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3AE437D1A423E2B00ED95E5 /* Build configuration list for PBXNativeTarget "Home24TestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				B3AE437F1A423E2B00ED95E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
